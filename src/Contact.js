@@ -11,6 +11,11 @@ export default function Contact() {
         //console.log("home!")
         < div >
             CONTACT US
+            <br />
+            <br />
+            Information coimng soon
+            <br />
+            <br />
             <button onClick={navigateHome}> Get Started! </button>
         </div >
     );

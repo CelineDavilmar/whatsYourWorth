@@ -1,9 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
-//import { MdOutlineWaterDrop } from "react-icons/md";
 import { GiPayMoney } from "react-icons/gi";
 import { AiOutlineThunderbolt } from "react-icons/ai";
-//import { AiOutlineWifi } from "react-icons/ai";
 
 
 function Activity() {

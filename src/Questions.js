@@ -46,63 +46,99 @@ export default function Questions() {
         id: 1,
         questionText: 'What is your monthly income',
         answer: <><input type="text" color='red' />
+          <br />
+          <br />
           <button onClick={Previous}>Back</button>
+          <br />
+          <br />
           <button onClick={Continue}>Next</button></>
       },
       {
         id: 2,
         questionText: 'How much $ do you have in your checking?',
         answer: <><input type="text" color='red' />
+          <br />
+          <br />
           <button onClick={Previous}>Back</button>
+          <br />
+          <br />
           <button onClick={Continue}>Next</button></>
       },
       {
         id: 3,
         questionText: 'How much do you currently have in your savings?',
         answer: <><input type="text" color='red' />
+          <br />
+          <br />
           <button onClick={Previous}>Back</button>
+          <br />
+          <br />
           <button onClick={Continue}>Next</button></>
       },
       {
         id: 4,
         questionText: 'How much do you currently have in your Retirement',
         answer: <><input type="text" color='red' />
+          <br />
+          <br />
           <button onClick={Previous}>Back</button>
+          <br />
+          <br />
           <button onClick={Continue}>Next</button></>
       },
       {
         id: 5,
         questionText: 'What other assets do you own?',
         answer: <><input type="text" color='red' />
+          <br />
+          <br />
           <button onClick={Previous}>Back</button>
+          <br />
+          <br />
           <button onClick={Continue}>Next</button></>
       },
       {
         id: 6,
         questionText: 'What is the estimated value of your assets',
         answer: <><input type="text" color='red' />
+          <br />
+          <br />
           <button onClick={Previous}>Back</button>
+          <br />
+          <br />
           <button onClick={Continue}>Next</button></>
       },
       {
         id: 7,
         questionText: 'How much are your monthly expenses?',
         answer: <><input type="text" color='red' />
+          <br />
+          <br />
           <button onClick={Previous}>Back</button>
+          <br />
+          <br />
           <button onClick={Continue}>Next</button></>
       },
       {
         id: 8,
         questionText: 'Any other debts?',
         answer: <><input type="text" color='red' />
+          <br />
+          <br />
           <button onClick={Previous}>Back</button>
+          <br />
+          <br />
           <button onClick={Continue}>Next</button></>
       },
       {
         id: 9,
         questionText: 'What are you financial goals?',
         answer: <><input type="text" />
+          <br />
+          <br />
           <button onClick={Previous}>Back</button>
+          <br />
+          <br />
           <button onClick={navigateHome}>Dashboard</button></>
       }
     ];

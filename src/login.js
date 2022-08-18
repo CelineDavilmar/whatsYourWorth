@@ -1,18 +1,26 @@
 import React from "react";
 import { useNavigate } from 'react-router-dom';
+import styled from 'styled-components'
 
 export default function LogIn() {
     const navigate = useNavigate();
     const navigateHome = () => {
         navigate('/Home');
     };
+    const Section = styled.section`
+    .mb-3{
+        margin: 2rem;
+    }
+    .space{
+        margin-right:1rem;
+    }
+    `;
     return (
-        //console.log("home!")
-        < div >
+        < Section >
             <form>
                 <h3>Sign In</h3>
-                <div className="mb-3">
-                    <label>Email address</label>
+                <div margin="2rem" className="mb-3">
+                    <label className="space" >Email address</label>
                     <input
                         type="email"
                         className="form-control"
@@ -20,7 +28,7 @@ export default function LogIn() {
                     />
                 </div>
                 <div className="mb-3">
-                    <label>Password</label>
+                    <label className="space">Password</label>
                     <input
                         type="password"
                         className="form-control"
@@ -48,7 +56,7 @@ export default function LogIn() {
                     Forgot password?
                 </p>
             </form>
-        </div >
+        </Section >
 
     );
 }

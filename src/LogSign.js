@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from 'react-router-dom';
+import styled from 'styled-components'
 
 export default function Option() {
     const navigate = useNavigate();
@@ -9,11 +10,19 @@ export default function Option() {
     const navigateSignup = () => {
         navigate('/Register');
     };
+    const Section = styled.section`
+    .mb-3{
+        margin: 2rem;
+    }
+    .space{
+        margin-right:1rem;
+    }
+    `;
     return (
         //console.log("home!")
-        < div >
-            <button onClick={navigateLogin}> Login </button>
-            <button onClick={navigateSignup}> Sign Up </button>
-        </div >
+        < Section >
+            <button className="mb-3" onClick={navigateLogin}> Login </button>
+            <button className="mb-3" onClick={navigateSignup}> Sign Up </button>
+        </Section >
     );
 }

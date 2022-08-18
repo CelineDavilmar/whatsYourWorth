@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from 'react-router-dom';
+import styled from 'styled-components'
 
 export default function SignUp() {
     const navigate = useNavigate();
@@ -9,13 +10,20 @@ export default function SignUp() {
     const navigateLogin = () => {
         navigate('/Login');
     };
+    const Section = styled.section`
+    .mb-3{
+        margin: 2rem;
+    }
+    .space{
+        margin-right:1rem;
+    }
+    `;
     return (
-        //console.log("home!")
-        < div >
+        < Section >
             <form>
                 <h3>Sign Up</h3>
                 <div className="mb-3">
-                    <label>First name</label>
+                    <label className="space">First name</label>
                     <input
                         type="text"
                         className="form-control"
@@ -23,11 +31,11 @@ export default function SignUp() {
                     />
                 </div>
                 <div className="mb-3">
-                    <label>Last name</label>
+                    <label className="space">Last name</label>
                     <input type="text" className="form-control" placeholder="Last name" />
                 </div>
                 <div className="mb-3">
-                    <label>Email address</label>
+                    <label className="space">Email address</label>
                     <input
                         type="email"
                         className="form-control"
@@ -35,7 +43,7 @@ export default function SignUp() {
                     />
                 </div>
                 <div className="mb-3">
-                    <label>Password</label>
+                    <label className="space">Password</label>
                     <input
                         type="password"
                         className="form-control"
@@ -52,6 +60,6 @@ export default function SignUp() {
                     <button onClick={navigateLogin}> Login </button>
                 </p>
             </form>
-        </div >
+        </Section >
     );
 }

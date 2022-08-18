@@ -1,4 +1,4 @@
-import React from "react";
+/* import React from "react";
 import Info from "./DashboardPanel/Info";
 import Allocation from "./DashboardPanel/Allocation";
 import Performance from "./DashboardPanel/Performance";
@@ -24,4 +24,4 @@ export default function Home() {
             </div>
         </div >
     );
-}
+} */

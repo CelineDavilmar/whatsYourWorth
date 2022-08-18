@@ -18,3 +18,4 @@ db.once("open", () => {
     });
 })
  */
+const server = http.createServer(app);

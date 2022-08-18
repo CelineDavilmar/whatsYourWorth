@@ -3,16 +3,12 @@ import styled from 'styled-components'
 import { AiOutlineCalendar } from "react-icons/ai";
 import { AiOutlineBell } from "react-icons/ai";
 import { AiOutlineCaretDown } from "react-icons/ai";
-//import avatarImage from "../assets/avatar.jpg"
 function Notification() {
     return (
         <Nav>
             <div className="notification">
                 <AiOutlineCalendar className="font_icon" />
                 <AiOutlineBell className="font_icon" />
-                {/* <div className="image">
-                    <img src={avatarImage} />
-                </div> */}
                 <AiOutlineCaretDown />
             </div>
         </Nav>

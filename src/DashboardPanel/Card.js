@@ -1,7 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
 import { FcSimCardChip } from "react-icons/fc";
-//import mastercard from "../assets/mastercard.png"
 function Card() {
     return (
         <Section>
@@ -12,14 +11,10 @@ function Card() {
                 <div className="number">
                     <h6>4562 1122 4595 7852</h6>
                 </div>
-                {/* <div className="image">
-                    <img src={mastercard} className="pic" />
-                </div> */}
                 <div className="name">
                     <h6>CARD HOLDER</h6>
                 </div>
                 <div className="profile">
-                    <h6>AAE IdeaPro</h6>
                     <span className="t1">Mastercard</span>
                 </div>
             </div>

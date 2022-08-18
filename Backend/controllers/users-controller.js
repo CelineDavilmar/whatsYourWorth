@@ -1,4 +1,4 @@
-const { User } = require('../models');
+/* const { User } = require('../models');
 
 const Users = {
 
@@ -21,4 +21,4 @@ const Users = {
 
 };
 
-module.exports = Users; 
+module.exports = Users;  */

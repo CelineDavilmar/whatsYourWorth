@@ -23,7 +23,6 @@ export default function LogIn() {
                     <label className="space" >Email address</label>
                     <input
                         type="email"
-                        className="form-control"
                         placeholder="Enter email"
                     />
                 </div>
@@ -31,24 +30,22 @@ export default function LogIn() {
                     <label className="space">Password</label>
                     <input
                         type="password"
-                        className="form-control"
                         placeholder="Enter password"
                     />
                 </div>
                 <div className="mb-3">
-                    <div className="custom-control custom-checkbox">
+                    <div>
                         <input
                             type="checkbox"
-                            className="custom-control-input"
                             id="customCheck1"
                         />
-                        <label className="custom-control-label" htmlFor="customCheck1">
+                        <label htmlFor="customCheck1">
                             Remember me
                         </label>
                     </div>
                 </div>
                 <div className="d-grid">
-                    <button onClick={navigateHome} type="submit" className="btn btn-primary">
+                    <button onClick={navigateHome} type="submit">
                         Submit
                     </button>
                 </div>

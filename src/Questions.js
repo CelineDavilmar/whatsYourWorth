@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-//import Home from './Home';
-//import { Routes, Route } from 'react-router-dom';
 
 export default function Questions() {
 

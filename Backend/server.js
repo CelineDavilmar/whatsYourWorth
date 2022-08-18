@@ -1,4 +1,4 @@
-const express = require('express');
+/* const express = require('express');
 //const mongoose = require('mongoose');
 
 const app = express();
@@ -17,3 +17,4 @@ db.once("open", () => {
         console.log(`App running on port ${PORT}!`);
     });
 })
+ */

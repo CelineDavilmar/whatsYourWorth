@@ -4,11 +4,9 @@ import { useNavigate } from 'react-router-dom';
 export default function Contact() {
     const navigate = useNavigate();
     const navigateHome = () => {
-        // 👇️ navigate to /
         navigate('/WelcomeQuestions');
     };
     return (
-        //console.log("home!")
         < div >
             CONTACT US
             <br />
@@ -16,7 +14,7 @@ export default function Contact() {
             Information coimng soon
             <br />
             <br />
-            <button onClick={navigateHome}> Get Started! </button>
+            <button onClick={navigateHome}> Main Page </button>
         </div >
     );
 }

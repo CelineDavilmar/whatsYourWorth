@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/whatsYourWorth/static/css/main.2709903b.css",
+    "main.js": "/whatsYourWorth/static/js/main.f62a7e61.js",
+    "static/js/787.3f4b5557.chunk.js": "/whatsYourWorth/static/js/787.3f4b5557.chunk.js",
+    "static/media/header-img.png": "/whatsYourWorth/static/media/header-img.8242d6e8b64c9c557bf5.png",
+    "static/media/3.png": "/whatsYourWorth/static/media/3.5c1dc78db8ae485eda03.png",
+    "static/media/1.png": "/whatsYourWorth/static/media/1.25f6ca34438f52a2df66.png",
+    "static/media/2.png": "/whatsYourWorth/static/media/2.519d67115621a6e3d2a6.png",
+    "static/media/contact-2.jpeg": "/whatsYourWorth/static/media/contact-2.a2d5135b3ea0b498923f.jpeg",
+    "static/media/contact-3.png": "/whatsYourWorth/static/media/contact-3.441d1b89fe8c7ec180a2.png",
+    "static/media/contact-1.png": "/whatsYourWorth/static/media/contact-1.3f219153d96fc127a09c.png",
+    "index.html": "/whatsYourWorth/index.html",
+    "main.2709903b.css.map": "/whatsYourWorth/static/css/main.2709903b.css.map",
+    "main.f62a7e61.js.map": "/whatsYourWorth/static/js/main.f62a7e61.js.map",
+    "787.3f4b5557.chunk.js.map": "/whatsYourWorth/static/js/787.3f4b5557.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2709903b.css",
+    "static/js/main.f62a7e61.js"
+  ]
+}

@@ -7,7 +7,6 @@ export default function Submit() {
         navigate('/');
     };
     return (
-        //console.log("home!")
         < div >
             We will follow up with you within 1-2 business days.
             <br />

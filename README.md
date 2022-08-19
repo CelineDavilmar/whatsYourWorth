@@ -29,9 +29,9 @@ This application is covered by the ISC license.
 * Graphql
 
 ## Contributors
-👪 Celine Davilmar
-👪 Rome Romulus
-👪 Rene Garcia
+👪 Celine Davilmar (front end, back end & CSS)
+👪 Rome Romulus (backend)
+👪 Rene Garcia (css)
 👪 Marisol Matute
 👪 Juan Tantau
 
